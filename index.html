@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/icono.png" type="image/x-icon">
+    <title>Casa Burger</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js"></script>
+</head>
+
+<body>
+
+    <header class="header" id="header">
+        <img class="bg" src="images/bg.svg" alt="">
+        <div class="menu container">
+            <div class="logo">
+                <p>Casa Burger</p>
+                <div><img id="cuchara-tenedor" src="./images/logo-casa-burger.png" alt=""></div>
+            </div>
+            
+            <input type="checkbox" id="menu">
+            <label for="menu"><img src="images/menu.png" class="menu-icono" alt=""></label>
+            <nav class="navbar">
+                <ul id="list-nav">
+                    <!-- <li><a href="#header">Inicio</a></li> -->
+                    <li><a href="#productos">Productos</a></li>
+                    <li><a href="https://www.google.com/maps/place/Casa+Burger/@7.0625538,-73.079783,3a,75y,162.87h,83.2t/data=!3m7!1e1!3m5!1sOgP7t-FW4s4pFaZmfF--kw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D6.804314251324641%26panoid%3DOgP7t-FW4s4pFaZmfF--kw%26yaw%3D162.8700435677445!7i16384!8i8192!4m6!3m5!1s0x8e684099628c854b:0x5029fa90356ac64c!8m2!3d7.0624577!4d-73.0797802!16s%2Fg%2F1q668pn3p?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D"  target="_blank" rel="noopener">Ubicación</a></li>
+                    <li><a href="#redes">Redes</a></li>
+                    <li><a href="#img-bajar">Conocenos</a></li>
+                </ul>
+            </nav>
+
+            <!--1-->
+            <button id="dark-mode-toggle" class="dark-mode-btn ico dianochelogo">🌙</button>
+
+        </div>
+        <div class="header-content container">
+            <div class="header-info">
+                <div class="header-txt">
+                    <h1>Tu comida favorita a domicilio y calentita</h1>
+                    <p>
+                        Disfruta de las mejores hamburguesas, picadas y muchas mas delicias desde la comodidad de tu hogar. En Casa Burger nos preocupamos por ofrecerte ingredientes frescos y de alta calidad para que cada bocado sea una experiencia inolvidable.
+                    </p>
+                    <a href="https://api.whatsapp.com/send/?phone=573043396758&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+sobre+sus+servicios&type=phone_number&app_absent=0" class="btn-1" id="ordena-ahora">Ordena ahora!</a>
+                </div>
+                <div class="header-img">
+                    <!-- <img src="images/ensalada-1.png" alt=""> -->
+                    <img src="./images/hamburguesa-logo.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="info container">
+        <div class="info-1">
+            <img src="images/time.svg" alt="">
+            <!-- <h3>Horario</h3> -->
+            <p>Todos los días 10am - 11pm</p>
+            <!-- programar ventana emergente con el horario al clickear el botón-->
+        </div>
+
+        <a href="https://www.google.com/maps/place/Casa+Burger/@7.0625538,-73.079783,3a,75y,162.87h,83.2t/data=!3m7!1e1!3m5!1sOgP7t-FW4s4pFaZmfF--kw!2e0!6shttps:%2F%2Fstreetviewpixels-pa.googleapis.com%2Fv1%2Fthumbnail%3Fcb_client%3Dmaps_sv.tactile%26w%3D900%26h%3D600%26pitch%3D6.804314251324641%26panoid%3DOgP7t-FW4s4pFaZmfF--kw%26yaw%3D162.8700435677445!7i16384!8i8192!4m6!3m5!1s0x8e684099628c854b:0x5029fa90356ac64c!8m2!3d7.0624577!4d-73.0797802!16s%2Fg%2F1q668pn3p?entry=ttu&g_ep=EgoyMDI1MDUyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">
+            <div class="info-1">
+                <img src="images/gps.svg" alt="">
+                <!-- <h3>Ubicación</h3> -->
+                <p>Andes-Floridablanca</p>
+            </div>
+        </a>
+        <a href="https://api.whatsapp.com/send/?phone=573043396758&text=Hola%2C+quiero+m%C3%A1s+informaci%C3%B3n+sobre+sus+servicios&type=phone_number&app_absent=0" target="_blank" rel="noopener">
+            <div class="info-1">
+                <img src="images/phone.svg" alt="">
+                <!-- <h3>Teléfono</h3> -->
+                <p>304-257-4465</p>
+            </div>
+        </a>
+        
+    </section>
+
+    <section class="nosotros">
+        <!-- <div class="line-with-margin" id="linea1-divisor"></div> -->
+        <img class="bg-2" src="images/bg-2.svg" alt="" id="img-bajar"> 
+        <div class="nosotros-info container">
+            <div class="nosotros-img">
+                <!-- <img src="images/ensalada-2.png" alt=""> -->
+                <img src="./images/alitas.png" alt="imagen de alitas" id="alitas">
+            </div>
+            <div class="nosotros-txt">
+                <!-- <span class="span-izq">Premium</span> -->
+                <h2 class="izq-txt">Donde la Frescura y el Sabor Se Encuentran</h2>
+                <p class="izq-txt">
+                    En Casa Burger, trabajamos con ingredientes seleccionados cada día para garantizarte el mejor sabor en cada platillo. Nuestras hamburguesas, carnes y demás productos se preparan con dedicación para que disfrutes una experiencia única.
+                </p>
+                <!-- <a href="#" class="btn-1 btn-txt">Saber más</a> -->
+            </div>
+        </div>
+      
+    </section>
+
+    <!-- improvisao -->
+
+    <section class="nosotros cloro">
+        <!-- <img class="bg-2" src="images/bg-2.svg" alt=""> -->
+        <div class="somos-txt">
+            <div class="nosotros-txt nosotros2">
+                <h2>Tu Satisfacción, Nuestro Ingrediente Secreto
+                </h2>
+                <p id="caja-txt">
+                    En Casa Burger, no solo preparamos las mejores hamburguesas; creamos experiencias memorables. Desde el primer día, nuestro objetivo ha sido claro: ofrecerte un servicio tan excepcional como el sabor de nuestras creaciones.
+                </p>
+                <!-- <a href="#" class="btn-1">Saber más</a> -->
+            </div>
+            <div class="nosotros-img">
+                <!-- <img src="images/ensalada-2.png" alt=""> -->
+                <img src="./images/miche2.png" alt="imagen de hamburguesa" id="img2">
+            </div>
+        </div>   
+    </section>
+
+    <section id="espace-products">
+        <div class="line-with-margin"></div>
+        <div id="title-products">
+            <h2 id="productos">Productos</h2>
+        <span class="span-center">Premium</span>
+        </div>
+    </section>
+    
+
+
+    <main>
+        <section id="section-carrusel">
+            <img src="./imagen productos/hamb1.jpg" alt="">
+            <!-- <img src="./imagen productos/hamb5.jpg" alt=""> -->
+            <img src="./imagen productos/perro.jpeg" alt="">
+            <img src="./images/tarjeta3.jpg" alt="">
+            <img src="./imagen productos/hamb2.jpg" alt="">
+            <img src="./imagen productos/hamb4-.jpg" alt="">
+
+        </section>
+    </main>
+
+    <div class="inicio" id="ini">
+        <a href="#header">Inicio</a>
+    </div>
+
+    <footer class="footer container">
+        <div class="footer-links">
+            <div id="copy"> 
+                <p>©Copyrigth CasaBurger2025.</p>
+            </div>
+            <div class="link" id="redes">
+                <a href="https://www.facebook.com/casaburgerflorida?locale=es_LA" target="_blank" rel="noopener">
+                    <img src="images/s1.svg" alt="icono de facebook">
+                </a>
+                <!-- <a href="">
+                    <img src="images/s2.svg" alt="">
+                </a> -->
+                <a href="https://www.linkedin.com/in/juan-sebastian-torres-rozo-864011225/" target="_blank" rel="noopener">
+                    <img src="images/s3.svg" alt="icono de linkedin">
+                </a>
+                <a href="https://www.instagram.com/casaburgerflorida/" target="_blank" rel="noopener">
+                    <img src="images/s4.svg" alt="icono de instagram">
+                </a>
+            </div>  
+        </div>
+    </footer>
+
+    <!-- API de WhatsApp -->
+    <div id="wasa">
+        <a href="https://wa.me/573043396758?text=Hola%2C%20quiero%20m%C3%A1s%20informaci%C3%B3n%20sobre%20sus%20servicios" target="_blank" rel="noopener"><img src="./images/Gemini_Generated_Image_1jkz5m1jkz5m1jkz.png" alt="icono de WhatsApp" id="icono-whatsapp"></a>
+    </div>
+    <!-- Chatbot -->
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '683c8cde9ea212a7c3104d2d' },
+                url: 'https://general-runtime.voiceflow.com',
+                versionID: 'production',
+                voice: {
+                  url: "https://runtime-api.voiceflow.com"
+                }
+              });
+            }
+            v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; v.type = "text/javascript"; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+      </script>
+</body>
+
+</html>
